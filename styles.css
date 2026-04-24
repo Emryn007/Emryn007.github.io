@@ -41,3 +41,14 @@ footer {
     text-align: center;
     font-size: 0.8em;
 }
+section {
+    border-radius: 10px;
+}
+
+nav ul li a {
+    transition: 0.3s;
+}
+
+header {
+    letter-spacing: 1px;
+}
