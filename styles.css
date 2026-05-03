@@ -52,3 +52,43 @@ nav ul li a {
 header {
     letter-spacing: 1px;
 }
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #444;
+  color: white;
+}
+
+/* Navigation transition */
+nav a {
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Section zoom transition */
+main section {
+  transition: transform 0.3s ease-in-out;
+}
+
+main section:hover {
+  transform: scale(1.02);
+}
